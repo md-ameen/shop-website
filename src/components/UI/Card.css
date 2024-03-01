@@ -1,4 +1,4 @@
-.card > button {
+.card>button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -8,26 +8,26 @@
   width: 20rem;
 }
 
-.card > button:hover {
-  background-color: #031424;
+.card>button:hover {
+  background-color: #240310;
   cursor: pointer;
 }
 
-.card > button:active {
+.card>button:active {
   background-color: #30415d;
 }
 
-.card > button > h2 {
+.card>button>h2 {
   color: whitesmoke;
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 
-.card > button > img {
+.card>button>img {
   width: 100%;
 }
 
-.card > button > h4 {
+.card>button>h4 {
   margin-top: 1.4rem;
   font-size: 1.2rem;
   color: whitesmoke;
@@ -35,100 +35,106 @@
 
 
 @media only screen and (max-width: 108rem) {
-  .card > button {
+  .card>button {
     width: 18rem;
   }
 }
 
 
 @media only screen and (max-width: 97rem) {
-  .card > button {
+  .card>button {
     width: 16rem;
   }
 }
 
 @media only screen and (max-width: 86rem) {
-  .card > button {
+  .card>button {
     width: 14rem;
   }
 }
 
 @media only screen and (max-width: 78rem) {
-  .card > button {
+  .card>button {
     width: 13.6rem;
   }
 }
 
 
 @media only screen and (max-width: 75rem) {
-  .card > button {
+  .card>button {
     width: 16rem;
   }
 }
 
 
 @media only screen and (max-width: 74rem) {
-  .card > button {
+  .card>button {
     width: 15rem;
     padding: 1rem;
   }
 }
 
 @media only screen and (max-width: 72rem) {
-  .card > button {
+  .card>button {
     width: 14rem;
     padding: .9rem;
   }
 }
 
 @media only screen and (max-width: 70rem) {
-  .card > button {
+  .card>button {
     width: 14rem;
     padding: .8rem;
   }
 }
 
 @media only screen and (max-width: 64rem) {
-  .card > button {
+  .card>button {
     width: 13.3rem;
     padding: .7rem;
   }
 }
 
 @media only screen and (max-width: 55rem) {
-  .card > button {
+  .card>button {
     width: 11rem;
   }
 }
 
 @media only screen and (max-width: 45rem) {
-  .card > button {
+  .card>button {
     width: 10rem;
     padding: .6rem;
-  } .card > button > h2 {
+  }
+
+  .card>button>h2 {
     font-size: 1.4rem;
   }
 }
 
 @media only screen and (max-width: 41rem) {
-  .card > button {
+  .card>button {
     width: 9rem;
     padding: .5rem;
   }
-  .card > button > h2 {
+
+  .card>button>h2 {
     font-size: 1.2rem;
   }
 }
 
 
 @media only screen and (max-width: 37rem) {
-  .card > button {
+  .card>button {
     width: 4.5rem;
     padding: .4rem;
   }
-  .card > button > h2 {
+
+  .card>button>h2 {
     font-size: .5rem;
-  }.card > button > h4 {
+  }
+
+  .card>button>h4 {
     margin-top: .4rem;
     font-size: .4rem;
   }

@@ -15,7 +15,7 @@ const Carousel = () => {
     width: "100%",
     borderRadius: "40px 40px 0 0",
     marginTop: "2rem",
-   
+
   };
 
   return (
