@@ -25,7 +25,7 @@ const Main = () => {
         <div className="main__container">
           <Carousel />
           <MainShops />
-          <Product />
+          {/* <Product /> */}
           <PopularProducts />
           <MainProducts />
         </div>
